@@ -1,5 +1,45 @@
 # @matterlabs/hardhat-zksync-solc
 
+## [1.6.0](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-solc-v1.5.1...@matterlabs/hardhat-zksync-solc-v1.6.0) (2025-09-25)
+
+
+### Features
+
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/elijah86j/hardhat-zksync/issues/1111)) ([7541898](https://github.com/elijah86j/hardhat-zksync/commit/754189814188a168a3ed44bcf61d8091451992dd))
+* support an option to fallback to optimizing for size solc ([#660](https://github.com/elijah86j/hardhat-zksync/issues/660)) ([ae850ac](https://github.com/elijah86j/hardhat-zksync/commit/ae850ac94cfda7e7fc184e00e37d63b2c0f7d9a8))
+* support for deploy time library linking ([#1505](https://github.com/elijah86j/hardhat-zksync/issues/1505)) ([19ce534](https://github.com/elijah86j/hardhat-zksync/commit/19ce53492ac4dfffeab6e75bc4c3d5d76733010d))
+* support for zkvm solc compiler ([#599](https://github.com/elijah86j/hardhat-zksync/issues/599)) ([6c45642](https://github.com/elijah86j/hardhat-zksync/commit/6c45642c37089aca8bb3e1849aeab7551f7e2270))
+* switch to the default codegen with zksolc ([#1062](https://github.com/elijah86j/hardhat-zksync/issues/1062)) ([086afae](https://github.com/elijah86j/hardhat-zksync/commit/086afae0a06d0311194ecd216237e6a31f36fc26))
+* throw errors for older versions of the compiler ([#1770](https://github.com/elijah86j/hardhat-zksync/issues/1770)) ([a188c8b](https://github.com/elijah86j/hardhat-zksync/commit/a188c8bfa714df6ce7416af2a7961c16a42da25d))
+
+
+### Bug Fixes
+
+* add check for local binary compiler ([098bfd4](https://github.com/elijah86j/hardhat-zksync/commit/098bfd4b36f41cd37b26ffd0c4cce3002f34c63e))
+* add gnu toolchain for linux as default from compiler version 1.5.3 ([#1354](https://github.com/elijah86j/hardhat-zksync/issues/1354)) ([30d46c4](https://github.com/elijah86j/hardhat-zksync/commit/30d46c4c881611117a21bdefd67c4e65e0665b85))
+* add mock extension for compiler path remote origins ([#824](https://github.com/elijah86j/hardhat-zksync/issues/824)) ([511ef40](https://github.com/elijah86j/hardhat-zksync/commit/511ef4044ffb4116fded884fb1f2a2cab680e4c7))
+* add new compiler properties in the zksolc hardhat config object ([#1652](https://github.com/elijah86j/hardhat-zksync/issues/1652)) ([7bc07c6](https://github.com/elijah86j/hardhat-zksync/commit/7bc07c60f34100dde07db1d74f1b671f3bf92050))
+* add suppressed errors and warnings ([#1375](https://github.com/elijah86j/hardhat-zksync/issues/1375)) ([c369d7c](https://github.com/elijah86j/hardhat-zksync/commit/c369d7c4643c2cd9b239024e8f7eeca5fd96415e))
+* add warnings for depricated versions ([2f1a25f](https://github.com/elijah86j/hardhat-zksync/commit/2f1a25f39c2225cb5677c4c443bd787559a11c35))
+* adjust solc message for missing libraries ([#783](https://github.com/elijah86j/hardhat-zksync/issues/783)) ([6031eee](https://github.com/elijah86j/hardhat-zksync/commit/6031eee319e8b189bf9ca56ddd22b1dbec823595))
+* bump fallback zksolc version ([#1710](https://github.com/elijah86j/hardhat-zksync/issues/1710)) ([a0ff854](https://github.com/elijah86j/hardhat-zksync/commit/a0ff854d8b0f22d17539c45c296da7411882c83a))
+* compiler path issue with compiler breakable changes ([#1212](https://github.com/elijah86j/hardhat-zksync/issues/1212)) ([221ec88](https://github.com/elijah86j/hardhat-zksync/commit/221ec881c4a0ebbefedfc12cd9339e1f0716356f))
+* **docs:** update readme files ([#612](https://github.com/elijah86j/hardhat-zksync/issues/612)) ([d1cbbd5](https://github.com/elijah86j/hardhat-zksync/commit/d1cbbd5d3fedc16dba94abdd9f98d752adf7286e))
+* **hardat-zksync-solc:** ensure that dir exist ([5b2cf42](https://github.com/elijah86j/hardhat-zksync/commit/5b2cf425bac888d649383b85ef9e80be67eb6050))
+* **hardhat-zksync-solc:** bump solidity pragma versions ([a9617fd](https://github.com/elijah86j/hardhat-zksync/commit/a9617fdbaffd7f4e6c286317e311b01d5d7beabd))
+* **hardhat-zksync-solc:** revert to older version used in other contracts ([39f9a89](https://github.com/elijah86j/hardhat-zksync/commit/39f9a89b46dd86d62d8471f4ca0b84fd82184e05))
+* introduce forceContrectsToCompile to ensure that contracts not present in the source path are compiled ([#1290](https://github.com/elijah86j/hardhat-zksync/issues/1290)) ([8dc2c6a](https://github.com/elijah86j/hardhat-zksync/commit/8dc2c6a6b3239d83ca9a70856c97ec82299756e3))
+* make compilationJobs argument optional at TASK_COMPILE_SOLIDITY_GET_SOLC_BUILD subtask ([#1322](https://github.com/elijah86j/hardhat-zksync/issues/1322)) ([b2b6271](https://github.com/elijah86j/hardhat-zksync/commit/b2b62711b0bb0cc396ac7efd6093dded1605c78b))
+* move fallback optimizing for size to optimizer section ([#687](https://github.com/elijah86j/hardhat-zksync/issues/687)) ([37dbe9b](https://github.com/elijah86j/hardhat-zksync/commit/37dbe9b54c3d22d3b2c8dbe2150954feb98647da))
+* noop commit to trigger release ([#1834](https://github.com/elijah86j/hardhat-zksync/issues/1834)) ([5ce0e7d](https://github.com/elijah86j/hardhat-zksync/commit/5ce0e7d96cfe609685f2084dced36cf854a40105))
+* remove latest version leftovers ([ca1250a](https://github.com/elijah86j/hardhat-zksync/commit/ca1250a90d893a29027388d001fbd75a89dc8093))
+* removes the old zksolc/zkvyper URL format ([#1813](https://github.com/elijah86j/hardhat-zksync/issues/1813)) ([cfd2b41](https://github.com/elijah86j/hardhat-zksync/commit/cfd2b416c81efc0dde6d8b5e4a07f4d32cec7a72))
+* return default zksolc version of fetching fails ([#1438](https://github.com/elijah86j/hardhat-zksync/issues/1438)) ([fd3f872](https://github.com/elijah86j/hardhat-zksync/commit/fd3f87262462c66321fa716f76c71f4ae1a6452b))
+* set zksolc compiler version for specified compiler path ([#804](https://github.com/elijah86j/hardhat-zksync/issues/804)) ([625e4b1](https://github.com/elijah86j/hardhat-zksync/commit/625e4b115385dce8531c0cc053b654abd40c0713))
+* update fallback era compiler version to proper format ([#1446](https://github.com/elijah86j/hardhat-zksync/issues/1446)) ([2e66b9d](https://github.com/elijah86j/hardhat-zksync/commit/2e66b9d3cd3ba467b30be8b5d4ca9969ee372d0d))
+* update links to new doc site ([8083a9e](https://github.com/elijah86j/hardhat-zksync/commit/8083a9eea3322f01503d2c261470351032f47657))
+
 ## [1.5.1](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-solc-v1.5.0...@matterlabs/hardhat-zksync-solc-v1.5.1) (2025-08-11)
 
 
