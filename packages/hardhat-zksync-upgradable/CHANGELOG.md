@@ -1,5 +1,40 @@
 # @matterlabs/hardhat-zksync-upgradable
 
+## [1.11.0](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-upgradable-v1.10.0...@matterlabs/hardhat-zksync-upgradable-v1.11.0) (2025-09-25)
+
+
+### Features
+
+* add etherscan as verification interface ([#1518](https://github.com/elijah86j/hardhat-zksync/issues/1518)) ([0e551d9](https://github.com/elijah86j/hardhat-zksync/commit/0e551d9e2dbecc64e60dfc571f09e86c45a385fd))
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+* add upgrades extension in hre ([#1286](https://github.com/elijah86j/hardhat-zksync/issues/1286)) ([04a46f0](https://github.com/elijah86j/hardhat-zksync/commit/04a46f078d3f89d176229ddf314ddebf89f92837))
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/elijah86j/hardhat-zksync/issues/1111)) ([7541898](https://github.com/elijah86j/hardhat-zksync/commit/754189814188a168a3ed44bcf61d8091451992dd))
+* bump hardhat-zksync-deploy and hardhat-zksync-solc dependencies… ([#840](https://github.com/elijah86j/hardhat-zksync/issues/840)) ([7a92782](https://github.com/elijah86j/hardhat-zksync/commit/7a927824a754dfb18b9df59b111c8b3641b62f70))
+* bump hardhat-zksync-deploy dependency version ([#990](https://github.com/elijah86j/hardhat-zksync/issues/990)) ([246862b](https://github.com/elijah86j/hardhat-zksync/commit/246862b0dc40ca297dd26761696cbc5130390ee0))
+* bump openzeppelin contracts to v5 ([#1463](https://github.com/elijah86j/hardhat-zksync/issues/1463)) ([6ce7e44](https://github.com/elijah86j/hardhat-zksync/commit/6ce7e448566ca973dc436a09a8694815f3fad0dc))
+* introducing a new tasks to compile,deploy and upgrade contracts ([#989](https://github.com/elijah86j/hardhat-zksync/issues/989)) ([dc390b0](https://github.com/elijah86j/hardhat-zksync/commit/dc390b04ed61e2b687567a6affb4c612fad53ac6))
+* introducing ethers extension in hre ([#1283](https://github.com/elijah86j/hardhat-zksync/issues/1283)) ([ec9e6d7](https://github.com/elijah86j/hardhat-zksync/commit/ec9e6d7e9c11cb4ad4a7715d8e1399dea66dab7f))
+* switch to the default codegen with zksolc ([#1062](https://github.com/elijah86j/hardhat-zksync/issues/1062)) ([086afae](https://github.com/elijah86j/hardhat-zksync/commit/086afae0a06d0311194ecd216237e6a31f36fc26))
+* throw errors for older versions of the compiler ([#1770](https://github.com/elijah86j/hardhat-zksync/issues/1770)) ([a188c8b](https://github.com/elijah86j/hardhat-zksync/commit/a188c8bfa714df6ce7416af2a7961c16a42da25d))
+
+
+### Bug Fixes
+
+* add factory deps for implementation deployment ([#756](https://github.com/elijah86j/hardhat-zksync/issues/756)) ([cdfa2fd](https://github.com/elijah86j/hardhat-zksync/commit/cdfa2fda654f452fc039afc6b6b6509b158b9cf8))
+* add no compile flag propagation ([#720](https://github.com/elijah86j/hardhat-zksync/issues/720)) ([e41e2a6](https://github.com/elijah86j/hardhat-zksync/commit/e41e2a6003fff06e25ac973f65c9ecfba45c3649))
+* add paymaster support for implementation upgrade ([#1545](https://github.com/elijah86j/hardhat-zksync/issues/1545)) ([234f583](https://github.com/elijah86j/hardhat-zksync/commit/234f583afd05888954ad75f6c004a97c56597a54))
+* add support for sepolia and zksync era test node ([#705](https://github.com/elijah86j/hardhat-zksync/issues/705)) ([a152e4b](https://github.com/elijah86j/hardhat-zksync/commit/a152e4b348c3bf94556adc64f393c7b8daa508fd))
+* **docs:** update readme files ([#612](https://github.com/elijah86j/hardhat-zksync/issues/612)) ([d1cbbd5](https://github.com/elijah86j/hardhat-zksync/commit/d1cbbd5d3fedc16dba94abdd9f98d752adf7286e))
+* estimateGas support for custom chains ([#1193](https://github.com/elijah86j/hardhat-zksync/issues/1193)) ([e28c7c2](https://github.com/elijah86j/hardhat-zksync/commit/e28c7c21071f9f2b279607a818aba05af25dbc1c))
+* extend deploy and upgrade of proxy with deployment type and salt ([#1041](https://github.com/elijah86j/hardhat-zksync/issues/1041)) ([d030272](https://github.com/elijah86j/hardhat-zksync/commit/d0302725bd4c369840d4387d2c0fc7e646250fac))
+* provide paymaster params for the beacon deployment ([#1523](https://github.com/elijah86j/hardhat-zksync/issues/1523)) ([3c0776d](https://github.com/elijah86j/hardhat-zksync/commit/3c0776da755a9dc5180632a17d7505dcb46f8ce7))
+* remove unnecessary devDependencies, remove hardhat-zksync-deploy import from index.ts ([#870](https://github.com/elijah86j/hardhat-zksync/issues/870)) ([8b445bc](https://github.com/elijah86j/hardhat-zksync/commit/8b445bcc48fb21bfb8657c0b21cdbb50cf319a6a))
+* set valid fromBlock filter to check creation tx hash from the logs ([#975](https://github.com/elijah86j/hardhat-zksync/issues/975)) ([d7bbfbe](https://github.com/elijah86j/hardhat-zksync/commit/d7bbfbe71279c8da56db999b9396da255e4eeccb))
+* update links to new doc site ([8083a9e](https://github.com/elijah86j/hardhat-zksync/commit/8083a9eea3322f01503d2c261470351032f47657))
+* update naming from era_test_node to anvil-zksync ([613eba1](https://github.com/elijah86j/hardhat-zksync/commit/613eba1ca166ddc481ae8cc84b574f8283a0f1e3))
+* update naming from era_test_node to anvil-zksync ([8ea99ac](https://github.com/elijah86j/hardhat-zksync/commit/8ea99acb561cd6b66fef91b63b59492ebd601e79))
+* use openzepplin/contracts as alias and remove unvalid peer depen… ([#1272](https://github.com/elijah86j/hardhat-zksync/issues/1272)) ([f3275d0](https://github.com/elijah86j/hardhat-zksync/commit/f3275d075e19fbe6f1a78b47f896f1b18c68b3c2))
+
 ## [1.10.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-upgradable-v1.9.0...@matterlabs/hardhat-zksync-upgradable-v1.10.0) (2025-07-11)
 
 
