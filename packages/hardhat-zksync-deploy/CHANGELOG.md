@@ -1,5 +1,33 @@
 # @matterlabs/hardhat-zksync-deploy
 
+## [1.9.0](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-deploy-v1.8.0...@matterlabs/hardhat-zksync-deploy-v1.9.0) (2025-09-25)
+
+
+### Features
+
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/elijah86j/hardhat-zksync/issues/1111)) ([7541898](https://github.com/elijah86j/hardhat-zksync/commit/754189814188a168a3ed44bcf61d8091451992dd))
+* introducing a new deploy-zksync:contract task to compile and deploy one contract ([#987](https://github.com/elijah86j/hardhat-zksync/issues/987)) ([045f331](https://github.com/elijah86j/hardhat-zksync/commit/045f3318b63b2d3fdcd52f143d575437277261a9))
+* introducing ethers extension in hre ([#1283](https://github.com/elijah86j/hardhat-zksync/issues/1283)) ([ec9e6d7](https://github.com/elijah86j/hardhat-zksync/commit/ec9e6d7e9c11cb4ad4a7715d8e1399dea66dab7f))
+* override run task for zksync hardhat network ([#1462](https://github.com/elijah86j/hardhat-zksync/issues/1462)) ([37afa27](https://github.com/elijah86j/hardhat-zksync/commit/37afa275b2d8618651f70cc48ded774b1d836a0f))
+* support for deploy time library linking ([#1505](https://github.com/elijah86j/hardhat-zksync/issues/1505)) ([19ce534](https://github.com/elijah86j/hardhat-zksync/commit/19ce53492ac4dfffeab6e75bc4c3d5d76733010d))
+* support for scripts tags, order, integrated deployer inside HRE ([#762](https://github.com/elijah86j/hardhat-zksync/issues/762)) ([2db7b2b](https://github.com/elijah86j/hardhat-zksync/commit/2db7b2bbdee58aaf7d199fc6e650e402350a2d8c))
+* switch to the default codegen with zksolc ([#1062](https://github.com/elijah86j/hardhat-zksync/issues/1062)) ([086afae](https://github.com/elijah86j/hardhat-zksync/commit/086afae0a06d0311194ecd216237e6a31f36fc26))
+* throw errors for older versions of the compiler ([#1770](https://github.com/elijah86j/hardhat-zksync/issues/1770)) ([a188c8b](https://github.com/elijah86j/hardhat-zksync/commit/a188c8bfa714df6ce7416af2a7961c16a42da25d))
+* use deployment type in the deploy function ([#1090](https://github.com/elijah86j/hardhat-zksync/issues/1090)) ([dc396bf](https://github.com/elijah86j/hardhat-zksync/commit/dc396bffbb9e7525ed4f386bf2ed231183f3af73))
+
+
+### Bug Fixes
+
+* **docs:** update readme files ([#612](https://github.com/elijah86j/hardhat-zksync/issues/612)) ([d1cbbd5](https://github.com/elijah86j/hardhat-zksync/commit/d1cbbd5d3fedc16dba94abdd9f98d752adf7286e))
+* **hardhat-zksync-deploy:** fixed edge case when url for ethNetwork is provided ([27c4f75](https://github.com/elijah86j/hardhat-zksync/commit/27c4f7515a367396fe12b7b41217a57303e4369d))
+* **hardhat-zksync-node:** Manually bump version of hardhat-zksync-node ([d781544](https://github.com/elijah86j/hardhat-zksync/commit/d78154400a5ec6e717d445c3d01cdd48043357f2))
+* remove deploy bump from toolbox ([6780459](https://github.com/elijah86j/hardhat-zksync/commit/6780459f2b50771656f11a6a5b3bbbdeee673d08))
+* set forceDeploy to true as a default value ([#848](https://github.com/elijah86j/hardhat-zksync/issues/848)) ([4e97d3c](https://github.com/elijah86j/hardhat-zksync/commit/4e97d3c47580a7beb5b2c3e93f75968801ef9f4d))
+* support for non-inline libraries 'export default' expressions and zksolc is not reqired for config update ([#853](https://github.com/elijah86j/hardhat-zksync/issues/853)) ([f1e946e](https://github.com/elijah86j/hardhat-zksync/commit/f1e946e6171e392aeadb08b873aa56d9c0b1c55d))
+* update deploy cache logic with script load path support for windows ([#865](https://github.com/elijah86j/hardhat-zksync/issues/865)) ([f88c3dc](https://github.com/elijah86j/hardhat-zksync/commit/f88c3dcf4705cca71c66a248cf47541e1ae8538c))
+* update links to new doc site ([8083a9e](https://github.com/elijah86j/hardhat-zksync/commit/8083a9eea3322f01503d2c261470351032f47657))
+
 ## [1.8.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-deploy-v1.7.0...@matterlabs/hardhat-zksync-deploy-v1.8.0) (2025-07-10)
 
 
