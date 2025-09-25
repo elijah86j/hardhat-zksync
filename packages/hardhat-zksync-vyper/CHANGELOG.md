@@ -1,5 +1,30 @@
 # @matterlabs/hardhat-zksync-vyper
 
+## [1.5.0](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-vyper-v1.4.0...@matterlabs/hardhat-zksync-vyper-v1.5.0) (2025-09-25)
+
+
+### Features
+
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/elijah86j/hardhat-zksync/issues/1111)) ([7541898](https://github.com/elijah86j/hardhat-zksync/commit/754189814188a168a3ed44bcf61d8091451992dd))
+* support an option to fallback to optimizing for size vyper ([#674](https://github.com/elijah86j/hardhat-zksync/issues/674)) ([5b1f19d](https://github.com/elijah86j/hardhat-zksync/commit/5b1f19da93094238dec2f996dd3e3618b91742d1))
+* support for deploy time library linking ([#1505](https://github.com/elijah86j/hardhat-zksync/issues/1505)) ([19ce534](https://github.com/elijah86j/hardhat-zksync/commit/19ce53492ac4dfffeab6e75bc4c3d5d76733010d))
+* throw errors for older versions of the compiler ([#1770](https://github.com/elijah86j/hardhat-zksync/issues/1770)) ([a188c8b](https://github.com/elijah86j/hardhat-zksync/commit/a188c8bfa714df6ce7416af2a7961c16a42da25d))
+
+
+### Bug Fixes
+
+* add check for local binary compiler ([098bfd4](https://github.com/elijah86j/hardhat-zksync/commit/098bfd4b36f41cd37b26ffd0c4cce3002f34c63e))
+* add gnu toolchain for linux as default from compiler version 1.5.4 ([#1359](https://github.com/elijah86j/hardhat-zksync/issues/1359)) ([7b0b6be](https://github.com/elijah86j/hardhat-zksync/commit/7b0b6be0216537921ad203794f5b1b4390cf25c4))
+* add warnings for depricated versions ([2f1a25f](https://github.com/elijah86j/hardhat-zksync/commit/2f1a25f39c2225cb5677c4c443bd787559a11c35))
+* **docs:** update readme files ([#612](https://github.com/elijah86j/hardhat-zksync/issues/612)) ([d1cbbd5](https://github.com/elijah86j/hardhat-zksync/commit/d1cbbd5d3fedc16dba94abdd9f98d752adf7286e))
+* download zkvyper if needed before compilation ([#1484](https://github.com/elijah86j/hardhat-zksync/issues/1484)) ([f019d45](https://github.com/elijah86j/hardhat-zksync/commit/f019d45b2077ce85024d87297ba4d456ab6d6614))
+* **hardhat-zksync-vyper:** Fixed windows compile paths ([#479](https://github.com/elijah86j/hardhat-zksync/issues/479)) ([26a057f](https://github.com/elijah86j/hardhat-zksync/commit/26a057f42c33e01a0f72390d32df814df5ee3dd4))
+* set zkvyper compiler version for specified compiler path ([#817](https://github.com/elijah86j/hardhat-zksync/issues/817)) ([3dc3643](https://github.com/elijah86j/hardhat-zksync/commit/3dc36438fb9247ad61c29d05b0e11d8dfa8672ae))
+* support new naming for proxy at forwarder contracts ([#809](https://github.com/elijah86j/hardhat-zksync/issues/809)) ([74af905](https://github.com/elijah86j/hardhat-zksync/commit/74af905ab9d91a94860f75a0e37ed352fd8d00e8))
+* update links to new doc site ([8083a9e](https://github.com/elijah86j/hardhat-zksync/commit/8083a9eea3322f01503d2c261470351032f47657))
+* windows path normalize with compiler ([#663](https://github.com/elijah86j/hardhat-zksync/issues/663)) ([7872b09](https://github.com/elijah86j/hardhat-zksync/commit/7872b0956af8322c705b8e23c43d730e958e3f36))
+
 ## [1.4.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-vyper-v1.3.0...@matterlabs/hardhat-zksync-vyper-v1.4.0) (2025-07-10)
 
 
