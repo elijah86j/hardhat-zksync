@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.0-alpha.6](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-verify-vyper-v0.2.0-alpha.6...@matterlabs/hardhat-zksync-verify-vyper-v0.3.0-alpha.6) (2025-09-25)
+
+
+### Features
+
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/elijah86j/hardhat-zksync/issues/1111)) ([7541898](https://github.com/elijah86j/hardhat-zksync/commit/754189814188a168a3ed44bcf61d8091451992dd))
+* throw errors for older versions of the compiler ([#1770](https://github.com/elijah86j/hardhat-zksync/issues/1770)) ([a188c8b](https://github.com/elijah86j/hardhat-zksync/commit/a188c8bfa714df6ce7416af2a7961c16a42da25d))
+
+
+### Bug Fixes
+
+* **docs:** update readme files ([#612](https://github.com/elijah86j/hardhat-zksync/issues/612)) ([d1cbbd5](https://github.com/elijah86j/hardhat-zksync/commit/d1cbbd5d3fedc16dba94abdd9f98d752adf7286e))
+* remove zksync-ethers dependency ([#877](https://github.com/elijah86j/hardhat-zksync/issues/877)) ([c398674](https://github.com/elijah86j/hardhat-zksync/commit/c398674d6b1a452e1d1994a92e15056a9be5e646))
+* update links to new doc site ([8083a9e](https://github.com/elijah86j/hardhat-zksync/commit/8083a9eea3322f01503d2c261470351032f47657))
+
 ## [0.2.0-alpha.6](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-verify-vyper-v0.1.0-alpha.6...@matterlabs/hardhat-zksync-verify-vyper-v0.2.0-alpha.6) (2025-07-10)
 
 
