@@ -1,5 +1,42 @@
 # @matterlabs/hardhat-zksync-verify
 
+## [1.10.0](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-verify-v1.9.1...@matterlabs/hardhat-zksync-verify-v1.10.0) (2025-09-25)
+
+
+### Features
+
+* add etherscan as verification interface ([#1518](https://github.com/elijah86j/hardhat-zksync/issues/1518)) ([0e551d9](https://github.com/elijah86j/hardhat-zksync/commit/0e551d9e2dbecc64e60dfc571f09e86c45a385fd))
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+* allow passing through the query params on verifyURL ([#1207](https://github.com/elijah86j/hardhat-zksync/issues/1207)) ([6e8bb7b](https://github.com/elijah86j/hardhat-zksync/commit/6e8bb7b65a14ac2bde6d3dcf980ef153273e827f))
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/elijah86j/hardhat-zksync/issues/1111)) ([7541898](https://github.com/elijah86j/hardhat-zksync/commit/754189814188a168a3ed44bcf61d8091451992dd))
+* bump hardhat-zksync-deploy and hardhat-zksync-solc dependencies… ([#840](https://github.com/elijah86j/hardhat-zksync/issues/840)) ([7a92782](https://github.com/elijah86j/hardhat-zksync/commit/7a927824a754dfb18b9df59b111c8b3641b62f70))
+* support for deploy time library linking ([#1505](https://github.com/elijah86j/hardhat-zksync/issues/1505)) ([19ce534](https://github.com/elijah86j/hardhat-zksync/commit/19ce53492ac4dfffeab6e75bc4c3d5d76733010d))
+* support for zkvm solc compiler verification ([#662](https://github.com/elijah86j/hardhat-zksync/issues/662)) ([589c456](https://github.com/elijah86j/hardhat-zksync/commit/589c456e6f988259b179b5ff6ce59897d7c8910d))
+* switch to the default codegen with zksolc ([#1062](https://github.com/elijah86j/hardhat-zksync/issues/1062)) ([086afae](https://github.com/elijah86j/hardhat-zksync/commit/086afae0a06d0311194ecd216237e6a31f36fc26))
+* throw errors for older versions of the compiler ([#1770](https://github.com/elijah86j/hardhat-zksync/issues/1770)) ([a188c8b](https://github.com/elijah86j/hardhat-zksync/commit/a188c8bfa714df6ce7416af2a7961c16a42da25d))
+
+
+### Bug Fixes
+
+* add missing setting properties to support isSystem and forceEvml… ([#965](https://github.com/elijah86j/hardhat-zksync/issues/965)) ([2efd255](https://github.com/elijah86j/hardhat-zksync/commit/2efd255a3a64d12e3373eb1f557a273a76f1fcc0))
+* call fallback verification with full source codes when BE throws… ([#968](https://github.com/elijah86j/hardhat-zksync/issues/968)) ([501ea1b](https://github.com/elijah86j/hardhat-zksync/commit/501ea1ba21cd1f4ad1285ebe5edbde16a7b66df3))
+* compare proper bytecode execution parts ([#1773](https://github.com/elijah86j/hardhat-zksync/issues/1773)) ([21d34bb](https://github.com/elijah86j/hardhat-zksync/commit/21d34bb4e7342df81b364ba0101e57dc21632e1f))
+* compiler path issue with compiler breakable changes ([#1212](https://github.com/elijah86j/hardhat-zksync/issues/1212)) ([221ec88](https://github.com/elijah86j/hardhat-zksync/commit/221ec881c4a0ebbefedfc12cd9339e1f0716356f))
+* **docs:** update readme files ([#612](https://github.com/elijah86j/hardhat-zksync/issues/612)) ([d1cbbd5](https://github.com/elijah86j/hardhat-zksync/commit/d1cbbd5d3fedc16dba94abdd9f98d752adf7286e))
+* get valid minimal context for verification BE request ([#1061](https://github.com/elijah86j/hardhat-zksync/issues/1061)) ([c8fc7e8](https://github.com/elijah86j/hardhat-zksync/commit/c8fc7e80abc5ca7ae6a82bb6eed550210ad86878))
+* **hardhat-zksync-verify:** support for non zksync networks and solutions ([#575](https://github.com/elijah86j/hardhat-zksync/issues/575)) ([49c70ea](https://github.com/elijah86j/hardhat-zksync/commit/49c70ea671449ab912b9c9144f6e018e3f3509f0))
+* migrate zkSync Etherscan verification to V2 API ([47e3f5a](https://github.com/elijah86j/hardhat-zksync/commit/47e3f5a33dd4eaf39323c40cda4d38e59b082757))
+* move hardhat dependency to dev dependencies ([#1188](https://github.com/elijah86j/hardhat-zksync/issues/1188)) ([9a540f2](https://github.com/elijah86j/hardhat-zksync/commit/9a540f2d6b3c9fabf6c342ae66fe482f256e3612))
+* remove verify bump from toolbox ([93e7bd6](https://github.com/elijah86j/hardhat-zksync/commit/93e7bd62d4aa9a370f328aa28ccd35974c3a68a4))
+* remove zksync-ethers dependency ([#876](https://github.com/elijah86j/hardhat-zksync/issues/876)) ([ac8b687](https://github.com/elijah86j/hardhat-zksync/commit/ac8b687bb01ae1e28319189361ffe80d5888197e))
+* removed openzeppelin dependency, fixed dev dependencies, and updated the contributing markdown to be clearer ([#1081](https://github.com/elijah86j/hardhat-zksync/issues/1081)) ([8a5045b](https://github.com/elijah86j/hardhat-zksync/commit/8a5045be84481cc11cc6b8d2262e74c4f219998f))
+* restore workspace dependencies in hardhat-zksync-verify ([246ac38](https://github.com/elijah86j/hardhat-zksync/commit/246ac38df6f24d315a515347387637cf9d0863b1))
+* send to verify service compiler input settings ([#854](https://github.com/elijah86j/hardhat-zksync/issues/854)) ([e3dc3b5](https://github.com/elijah86j/hardhat-zksync/commit/e3dc3b5e726d4a87660ab988ac80753328bbc972))
+* support partial match verification for contracts with keccak metadata ([#1667](https://github.com/elijah86j/hardhat-zksync/issues/1667)) ([8b9194e](https://github.com/elijah86j/hardhat-zksync/commit/8b9194e4297f43dacaffe96025d30e092ab7018e))
+* update deploy cache logic with script load path support for windows ([#865](https://github.com/elijah86j/hardhat-zksync/issues/865)) ([f88c3dc](https://github.com/elijah86j/hardhat-zksync/commit/f88c3dcf4705cca71c66a248cf47541e1ae8538c))
+* update links to new doc site ([8083a9e](https://github.com/elijah86j/hardhat-zksync/commit/8083a9eea3322f01503d2c261470351032f47657))
+* verify contract params format ([#1536](https://github.com/elijah86j/hardhat-zksync/issues/1536)) ([d8db408](https://github.com/elijah86j/hardhat-zksync/commit/d8db408ba88df1c0d0a8bf6b59c57732d90d6558))
+
 ## [1.9.1](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-verify-v1.9.0...@matterlabs/hardhat-zksync-verify-v1.9.1) (2025-08-11)
 
 
