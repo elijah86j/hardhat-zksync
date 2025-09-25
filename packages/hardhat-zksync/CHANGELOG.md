@@ -1,5 +1,27 @@
 # @matterlabs/hardhat-zksync
 
+## [1.7.0](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-v1.6.1...@matterlabs/hardhat-zksync-v1.7.0) (2025-09-25)
+
+
+### Features
+
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+* bump all plugin versions ([#1756](https://github.com/elijah86j/hardhat-zksync/issues/1756)) ([4e2c891](https://github.com/elijah86j/hardhat-zksync/commit/4e2c89131559b61420ab434ac82cd70feb5eae6b))
+* bump ethers, zksync-ethers, hardaht and other dependencies to newer versions ([#1111](https://github.com/elijah86j/hardhat-zksync/issues/1111)) ([7541898](https://github.com/elijah86j/hardhat-zksync/commit/754189814188a168a3ed44bcf61d8091451992dd))
+* bump openzeppelin contracts to v5 ([#1463](https://github.com/elijah86j/hardhat-zksync/issues/1463)) ([6ce7e44](https://github.com/elijah86j/hardhat-zksync/commit/6ce7e448566ca973dc436a09a8694815f3fad0dc))
+* introducing ethers extension in hre ([#1283](https://github.com/elijah86j/hardhat-zksync/issues/1283)) ([ec9e6d7](https://github.com/elijah86j/hardhat-zksync/commit/ec9e6d7e9c11cb4ad4a7715d8e1399dea66dab7f))
+* remove zksync contracts dependecy ([#1450](https://github.com/elijah86j/hardhat-zksync/issues/1450)) ([5b9b863](https://github.com/elijah86j/hardhat-zksync/commit/5b9b86367ba0fa6edf781195eb081a9d27c62a60))
+* replacing the toolbox plugin with hardhat-zksync ([#994](https://github.com/elijah86j/hardhat-zksync/issues/994)) ([fe7b407](https://github.com/elijah86j/hardhat-zksync/commit/fe7b407c6556e2068a5c50be9e9e7acae477bae2))
+* switch to the default codegen with zksolc ([#1062](https://github.com/elijah86j/hardhat-zksync/issues/1062)) ([086afae](https://github.com/elijah86j/hardhat-zksync/commit/086afae0a06d0311194ecd216237e6a31f36fc26))
+
+
+### Bug Fixes
+
+* fix log issue ([4b80e9d](https://github.com/elijah86j/hardhat-zksync/commit/4b80e9d459c8da3d6f6d65dba9df96f10547e7e1))
+* update links to new doc site ([8083a9e](https://github.com/elijah86j/hardhat-zksync/commit/8083a9eea3322f01503d2c261470351032f47657))
+* update naming from era_test_node to anvil-zksync ([613eba1](https://github.com/elijah86j/hardhat-zksync/commit/613eba1ca166ddc481ae8cc84b574f8283a0f1e3))
+* update naming from era_test_node to anvil-zksync ([8ea99ac](https://github.com/elijah86j/hardhat-zksync/commit/8ea99acb561cd6b66fef91b63b59492ebd601e79))
+
 ## 1.6.2
 
 ### Patch Changes
