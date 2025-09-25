@@ -1,5 +1,5 @@
 {
-    "packages/hardhat-zksync-telemetry": "1.1.1",
+    "packages/hardhat-zksync-telemetry": "1.2.0",
     "packages/hardhat-zksync-deploy": "1.8.0",
     "packages/hardhat-zksync-solc": "1.5.1",
     "packages/hardhat-zksync-upgradable": "1.10.0",

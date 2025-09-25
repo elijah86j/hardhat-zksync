@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://github.com/elijah86j/hardhat-zksync/compare/@matterlabs/hardhat-zksync-telemetry-v1.1.1...@matterlabs/hardhat-zksync-telemetry-v1.2.0) (2025-09-25)
+
+
+### Features
+
+* add telemetry ([f27dc7c](https://github.com/elijah86j/hardhat-zksync/commit/f27dc7c1ba87d8340cf93df12897a0c4286ded95))
+
+
+### Bug Fixes
+
+* exclude test from telemetry build ([cdd95fa](https://github.com/elijah86j/hardhat-zksync/commit/cdd95fa3223e17e97481d8d144684d0d4d965aed))
+* switch to new telemetry project ([048b781](https://github.com/elijah86j/hardhat-zksync/commit/048b78160877d7b73e91069ad58978512da0c9f7))
+* update telemetry lib dependency ([27ce1be](https://github.com/elijah86j/hardhat-zksync/commit/27ce1be39896bb188c3ed8ce32183369d59fe73b))
+* update telemetry-js lib ([#1717](https://github.com/elijah86j/hardhat-zksync/issues/1717)) ([cfbc926](https://github.com/elijah86j/hardhat-zksync/commit/cfbc926e9d8197044aba5ddc473a875ee2c72fb6))
+
 ## [1.1.1](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-telemetry-v1.1.0...@matterlabs/hardhat-zksync-telemetry-v1.1.1) (2025-04-02)
 
 
